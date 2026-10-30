@@ -1,0 +1,72 @@
+{
+ "axes": [
+  {
+   "panel": 0,
+   "xlabel": "Measure",
+   "xlim": [
+    -0.5,
+    2.5
+   ],
+   "xscale": "linear",
+   "ylabel": "Count, of 48 episodes per arm",
+   "ylim": [
+    0.0,
+    48.0
+   ]
+  }
+ ],
+ "figure": "fig4_editing_ablation.svg",
+ "plotted": [
+  {
+   "n": 48,
+   "panel": 0,
+   "series": "Editor",
+   "x": "Tasks solved",
+   "xpos": -0.11989342806394317,
+   "y": 32
+  },
+  {
+   "n": 48,
+   "panel": 0,
+   "series": "Whole-file agent",
+   "x": "Tasks solved",
+   "xpos": 0.11989342806394317,
+   "y": 31
+  },
+  {
+   "n": 48,
+   "panel": 0,
+   "series": "Editor",
+   "x": "Syntax-invalid files",
+   "xpos": 0.8801065719360568,
+   "y": 6
+  },
+  {
+   "n": 48,
+   "panel": 0,
+   "series": "Whole-file agent",
+   "x": "Syntax-invalid files",
+   "xpos": 1.1198934280639432,
+   "y": 2
+  },
+  {
+   "n": 48,
+   "panel": 0,
+   "series": "Editor",
+   "x": "Wall-cap hits",
+   "xpos": 1.8801065719360568,
+   "y": 22
+  },
+  {
+   "n": 48,
+   "panel": 0,
+   "series": "Whole-file agent",
+   "x": "Wall-cap hits",
+   "xpos": 2.119893428063943,
+   "y": 29
+  }
+ ],
+ "sources": [
+  "data/dsh2.json"
+ ]
+}

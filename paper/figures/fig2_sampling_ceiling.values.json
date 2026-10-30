@@ -1,0 +1,187 @@
+{
+ "axes": [
+  {
+   "panel": 0,
+   "xlabel": "Samples per task, k",
+   "xlim": [
+    0.5,
+    8.5
+   ],
+   "xscale": "linear",
+   "ylabel": "Tasks solved (%)",
+   "ylim": [
+    0.0,
+    100.0
+   ]
+  },
+  {
+   "panel": 1,
+   "xlabel": "Samples per task, k",
+   "xlim": [
+    0.5,
+    8.5
+   ],
+   "xscale": "linear",
+   "ylabel": "",
+   "ylim": [
+    0.0,
+    100.0
+   ]
+  }
+ ],
+ "figure": "fig2_sampling_ceiling.svg",
+ "plotted": [
+  {
+   "model": "14B",
+   "panel": 0,
+   "series": "Agent, mean of three sessions",
+   "x": [
+    1,
+    8
+   ],
+   "y": 84.01360544217685
+  },
+  {
+   "model": "14B",
+   "panel": 0,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 1,
+   "xpos": 1,
+   "y": 86.86224489795919
+  },
+  {
+   "model": "14B",
+   "panel": 0,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 2,
+   "xpos": 2,
+   "y": 89.54081632653062
+  },
+  {
+   "model": "14B",
+   "panel": 0,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 3,
+   "xpos": 3,
+   "y": 90.74344023323616
+  },
+  {
+   "model": "14B",
+   "panel": 0,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 4,
+   "xpos": 4,
+   "y": 91.45772594752187
+  },
+  {
+   "model": "14B",
+   "panel": 0,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 5,
+   "xpos": 5,
+   "y": 91.9460641399417
+  },
+  {
+   "model": "14B",
+   "panel": 0,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 6,
+   "xpos": 6,
+   "y": 92.31049562682215
+  },
+  {
+   "model": "14B",
+   "panel": 0,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 7,
+   "xpos": 7,
+   "y": 92.60204081632654
+  },
+  {
+   "model": "14B",
+   "panel": 0,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 8,
+   "xpos": 8,
+   "y": 92.85714285714286
+  },
+  {
+   "model": "32B",
+   "panel": 1,
+   "series": "Agent, mean of three sessions",
+   "x": [
+    1,
+    8
+   ],
+   "y": 78.57142857142857
+  },
+  {
+   "model": "32B",
+   "panel": 1,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 1,
+   "xpos": 1,
+   "y": 85.0765306122449
+  },
+  {
+   "model": "32B",
+   "panel": 1,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 2,
+   "xpos": 2,
+   "y": 88.30174927113704
+  },
+  {
+   "model": "32B",
+   "panel": 1,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 3,
+   "xpos": 3,
+   "y": 89.70481049562683
+  },
+  {
+   "model": "32B",
+   "panel": 1,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 4,
+   "xpos": 4,
+   "y": 90.466472303207
+  },
+  {
+   "model": "32B",
+   "panel": 1,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 5,
+   "xpos": 5,
+   "y": 90.9438775510204
+  },
+  {
+   "model": "32B",
+   "panel": 1,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 6,
+   "xpos": 6,
+   "y": 91.29008746355684
+  },
+  {
+   "model": "32B",
+   "panel": 1,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 7,
+   "xpos": 7,
+   "y": 91.58163265306122
+  },
+  {
+   "model": "32B",
+   "panel": 1,
+   "series": "Unbiased pass@k (oracle ceiling)",
+   "x": 8,
+   "xpos": 8,
+   "y": 91.83673469387755
+  }
+ ],
+ "sources": [
+  "data/dsh3.json",
+  "data/dsh4.json"
+ ]
+}

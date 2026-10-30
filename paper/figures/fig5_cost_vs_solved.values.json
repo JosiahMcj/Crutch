@@ -1,0 +1,89 @@
+{
+ "axes": [
+  {
+   "panel": 0,
+   "xlabel": "Mean wall time per task (s, log scale)",
+   "xlim": [
+    1.0,
+    300.0
+   ],
+   "xscale": "log",
+   "ylabel": "Tasks solved (%)",
+   "ylim": [
+    0.0,
+    100.0
+   ]
+  }
+ ],
+ "figure": "fig5_cost_vs_solved.svg",
+ "plotted": [
+  {
+   "panel": 0,
+   "series": "Single shot (greedy)",
+   "wall_s": 2.440816326530612,
+   "x": "8B",
+   "xpos": 2.440816326530612,
+   "y": 76.53061224489795
+  },
+  {
+   "panel": 0,
+   "series": "Single shot (greedy)",
+   "wall_s": 4.186734693877551,
+   "x": "14B",
+   "xpos": 4.186734693877551,
+   "y": 85.71428571428571
+  },
+  {
+   "panel": 0,
+   "series": "Single shot (greedy)",
+   "wall_s": 9.285714285714286,
+   "x": "32B",
+   "xpos": 9.285714285714286,
+   "y": 84.6938775510204
+  },
+  {
+   "panel": 0,
+   "series": "Agent",
+   "wall_s": 119.78945578231291,
+   "x": "8B",
+   "xpos": 119.78945578231291,
+   "y": 57.82312925170067
+  },
+  {
+   "panel": 0,
+   "series": "Agent",
+   "wall_s": 32.97312925170068,
+   "x": "14B",
+   "xpos": 32.97312925170068,
+   "y": 84.01360544217685
+  },
+  {
+   "panel": 0,
+   "series": "Agent",
+   "wall_s": 83.88945578231292,
+   "x": "32B",
+   "xpos": 83.88945578231292,
+   "y": 78.57142857142857
+  },
+  {
+   "panel": 0,
+   "series": "Best of eight samples (oracle ceiling)",
+   "wall_s": 29.205102040816325,
+   "x": "14B",
+   "xpos": 29.205102040816325,
+   "y": 92.85714285714286
+  },
+  {
+   "panel": 0,
+   "series": "Best of eight samples (oracle ceiling)",
+   "wall_s": 66.95816326530611,
+   "x": "32B",
+   "xpos": 66.95816326530611,
+   "y": 91.83673469387755
+  }
+ ],
+ "sources": [
+  "data/dsh3.json",
+  "data/dsh4.json"
+ ]
+}

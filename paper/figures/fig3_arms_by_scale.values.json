@@ -1,0 +1,209 @@
+{
+ "axes": [
+  {
+   "panel": 0,
+   "xlabel": "Model size (billions of parameters)",
+   "xlim": [
+    -0.5,
+    2.5
+   ],
+   "xscale": "linear",
+   "ylabel": "Tasks solved (%)",
+   "ylim": [
+    0.0,
+    100.0
+   ]
+  }
+ ],
+ "figure": "fig3_arms_by_scale.svg",
+ "plotted": [
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Single shot (greedy)",
+   "solved": 75,
+   "x": "8B",
+   "xpos": -0.3357015985790409,
+   "y": 76.53061224489795
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent, mean of three sessions",
+   "x": "8B",
+   "xpos": 0.11190053285968031,
+   "y": 57.82312925170067
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent session 1",
+   "solved": 55,
+   "x": "8B",
+   "xpos": 0.06749555950266432,
+   "y": 56.12244897959184
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent session 2",
+   "solved": 57,
+   "x": "8B",
+   "xpos": 0.11190053285968031,
+   "y": 58.16326530612245
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent session 3",
+   "solved": 58,
+   "x": "8B",
+   "xpos": 0.1563055062166963,
+   "y": 59.183673469387756
+  },
+  {
+   "note": "not run at this size",
+   "panel": 0,
+   "series": "One sampled shot (sample 0)",
+   "x": "8B",
+   "xpos": -0.11190053285968031,
+   "y": null
+  },
+  {
+   "note": "not run at this size",
+   "panel": 0,
+   "series": "Best of eight samples (oracle ceiling)",
+   "x": "8B",
+   "xpos": 0.3357015985790409,
+   "y": null
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Single shot (greedy)",
+   "solved": 84,
+   "x": "14B",
+   "xpos": 0.6642984014209591,
+   "y": 85.71428571428571
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent, mean of three sessions",
+   "x": "14B",
+   "xpos": 1.1119005328596803,
+   "y": 84.01360544217685
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent session 1",
+   "solved": 83,
+   "x": "14B",
+   "xpos": 1.0674955595026643,
+   "y": 84.6938775510204
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent session 2",
+   "solved": 82,
+   "x": "14B",
+   "xpos": 1.1119005328596803,
+   "y": 83.6734693877551
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent session 3",
+   "solved": 82,
+   "x": "14B",
+   "xpos": 1.1563055062166963,
+   "y": 83.6734693877551
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "One sampled shot (sample 0)",
+   "solved": 84,
+   "x": "14B",
+   "xpos": 0.8880994671403197,
+   "y": 85.71428571428571
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Best of eight samples (oracle ceiling)",
+   "solved": 91,
+   "x": "14B",
+   "xpos": 1.3357015985790408,
+   "y": 92.85714285714286
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Single shot (greedy)",
+   "solved": 83,
+   "x": "32B",
+   "xpos": 1.6642984014209592,
+   "y": 84.6938775510204
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent, mean of three sessions",
+   "x": "32B",
+   "xpos": 2.1119005328596803,
+   "y": 78.57142857142857
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent session 1",
+   "solved": 79,
+   "x": "32B",
+   "xpos": 2.0674955595026643,
+   "y": 80.61224489795919
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent session 2",
+   "solved": 77,
+   "x": "32B",
+   "xpos": 2.1119005328596803,
+   "y": 78.57142857142857
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Agent session 3",
+   "solved": 75,
+   "x": "32B",
+   "xpos": 2.1563055062166963,
+   "y": 76.53061224489795
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "One sampled shot (sample 0)",
+   "solved": 85,
+   "x": "32B",
+   "xpos": 1.8880994671403197,
+   "y": 86.73469387755102
+  },
+  {
+   "n": 98,
+   "panel": 0,
+   "series": "Best of eight samples (oracle ceiling)",
+   "solved": 90,
+   "x": "32B",
+   "xpos": 2.335701598579041,
+   "y": 91.83673469387755
+  }
+ ],
+ "sources": [
+  "data/dsh3.json",
+  "data/dsh4.json"
+ ]
+}

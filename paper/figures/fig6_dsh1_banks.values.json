@@ -1,0 +1,78 @@
+{
+ "axes": [
+  {
+   "panel": 0,
+   "xlabel": "Task bank (n = tasks)",
+   "xlim": [
+    -0.5,
+    2.5
+   ],
+   "xscale": "linear",
+   "ylabel": "Tasks solved (%)",
+   "ylim": [
+    0.0,
+    100.0
+   ]
+  }
+ ],
+ "figure": "fig6_dsh1_banks.svg",
+ "plotted": [
+  {
+   "n": 20,
+   "panel": 0,
+   "series": "Single shot",
+   "solved": 9,
+   "x": "Algorithmic",
+   "xpos": -0.11989342806394317,
+   "y": 45.0
+  },
+  {
+   "n": 20,
+   "panel": 0,
+   "series": "Agent",
+   "solved": 4,
+   "x": "Algorithmic",
+   "xpos": 0.11989342806394317,
+   "y": 20.0
+  },
+  {
+   "n": 50,
+   "panel": 0,
+   "series": "Single shot",
+   "solved": 38,
+   "x": "MBPP",
+   "xpos": 0.8801065719360568,
+   "y": 76.0
+  },
+  {
+   "n": 50,
+   "panel": 0,
+   "series": "Agent",
+   "solved": 34,
+   "x": "MBPP",
+   "xpos": 1.1198934280639432,
+   "y": 68.0
+  },
+  {
+   "n": 28,
+   "panel": 0,
+   "series": "Single shot",
+   "solved": 28,
+   "x": "Physics",
+   "xpos": 1.8801065719360568,
+   "y": 100.0
+  },
+  {
+   "n": 28,
+   "panel": 0,
+   "series": "Agent",
+   "solved": 19,
+   "x": "Physics",
+   "xpos": 2.119893428063943,
+   "y": 67.85714285714286
+  }
+ ],
+ "sources": [
+  "data/dsh1.json"
+ ]
+}
